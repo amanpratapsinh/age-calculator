@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{background: radial-gradient(circle, rgba(76,251,63,1) 0%, rgba(230,252,70,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.container{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+}
+.header{
+    font-size: 38px;
+    font-weight: bold;
+    
+}
+
+label{
+    font-size: 20px;
+    
+    display: block;
+}
+.age-input{
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px 30px 10px 30px;
+    border:none;
+    
+}
+.Calculate-btn{
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    color: aliceblue;
+    background-color: black;
+    margin-bottom: 5px;
+}
+.birth{
+    margin-bottom: 8px;
+}
